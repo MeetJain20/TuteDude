@@ -1,0 +1,157 @@
+.referearn {
+  padding: 2rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.refertitle {
+  font-size: 14px;
+}
+.fa-chevron-right {
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+}
+.refertop {
+  margin-bottom: 2rem;
+}
+
+.middlelayer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+
+.referuppmiddle {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.uppermiddle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxx {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.middlehead {
+  color: #800080;
+  font-size: 14px;
+}
+
+.middleheadans {
+  font-size: 30px;
+}
+
+.buttonwithdraw {
+  display: flex;
+  justify-content: center;
+}
+
+.referralcode {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7rem;
+}
+
+.rightmiddle {
+  color: #800080;
+  font-size: 24px;
+}
+
+.coderefer {
+  display: flex;
+  flex-direction: row;
+  padding: 13px 33px;
+  justify-content: center;
+  width: 20rem;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(270deg, #800080, #ff864c) 1;
+}
+
+.letter {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  color: #800080;
+}
+
+.code {
+  border-radius: 10px;
+}
+
+.withdraw {
+  width: 15rem;
+  background-color: #800080;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 1.5rem;
+}
+
+.working {
+  display: flex;
+  flex-direction: column;
+}
+
+.worktitle {
+  color: #800080;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+}
+
+.listboxx {
+  display: flex;
+  flex-direction: row;
+  width: 40rem;
+}
+
+.row {
+  width: 90%;
+}
+
+.fontimage {
+  margin-right: 1rem;
+  width: 70px;
+  height: 70px;
+  background-color: #ecebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.inviteee {
+  font-weight: 500;
+}
+
+.descript {
+  font-weight: 300;
+  width: 17rem;
+}
+
+.enrolled {
+  margin-top: 3rem;
+  width: 11rem;
+}
+
+.termscondi {
+  width: 11rem;
+}
+
+.enrolledfr {
+  color: #800080;
+  font-weight: 500;
+}

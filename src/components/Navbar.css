@@ -1,0 +1,37 @@
+.nav-item {
+  list-style: none;
+  font-size: 18px;
+}
+/* .navbarull {
+  color: #800080;
+} */
+.nav-link {
+  color: #f1b5f1;
+}
+
+.mentorr {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.droppp {
+  color: #800080;
+}
+
+.navbar-brand {
+  color: #800080;
+}
+.fa-user {
+  background-color: #800080;
+  color: white;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 4px;
+  width: 20px;
+  height: 20.5px;
+}
+/* image 1 */
+.tutelogo {
+  height: 35px;
+  width: 40px;
+  margin-right: 0.5rem;
+}
