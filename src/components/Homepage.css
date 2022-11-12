@@ -126,7 +126,7 @@
   margin-right: 1rem;
   width: 70px;
   height: 70px;
-  background-color: #ecebeb;
+  background-color: rgba(217, 217, 217, 0.25);
   display: flex;
   justify-content: center;
   align-items: center;

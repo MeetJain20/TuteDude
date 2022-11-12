@@ -1,0 +1,77 @@
+.referearn {
+  padding: 2rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.refertitle {
+  font-size: 14px;
+}
+.fa-chevron-right {
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+}
+.refertop {
+  margin-bottom: 1rem;
+}
+
+.referral {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.referralcolu {
+  display: flex;
+  flex-direction: column;
+}
+
+.referraltitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #800080;
+  margin-bottom: 0.45rem;
+}
+
+.codereferrer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 9.85rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #c3c3c359;
+}
+
+.letterss {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  color: black;
+}
+
+.wallettitle {
+  color: #800080;
+}
+
+.walletval {
+  font-weight: 430;
+}
+
+.walletbal {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 25px;
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-radius: 20px;
+}
+
+.boldfriends {
+  font-size: 20px;
+  color: #800080;
+  font-weight: 600;
+}
+
+.numenrolled {
+  font-weight: 200;
+  color: #626262;
+}
