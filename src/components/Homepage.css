@@ -1,7 +1,8 @@
 .referearn {
   padding: 2rem;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   display: flex;
+  overflow-x: hidden;
   flex-direction: column;
 }
 .refertitle {
@@ -118,7 +119,7 @@
   width: 40rem;
 }
 
-.row {
+.boxxess {
   width: 90%;
 }
 
@@ -154,4 +155,104 @@
 .enrolledfr {
   color: #800080;
   font-weight: 500;
+}
+
+@media (max-width: 990px) {
+  .referuppmiddle {
+    width: 400px;
+    padding: 10px;
+  }
+  .boxx {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .middlehead {
+    font-size: 12px;
+  }
+
+  .middleheadans {
+    font-size: 25px;
+  }
+  .middlelayer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+  .referralcode {
+    margin-left: 0rem;
+    margin-top: 1.5rem;
+  }
+  .withdraw {
+    width: 10rem;
+    padding: 7px;
+    border-radius: 25px;
+    margin-bottom: 1.25rem;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 667px) {
+  .referuppmiddle {
+    width: 320px;
+    padding: 10px;
+  }
+  .boxx {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .middlehead {
+    font-size: 10px;
+  }
+
+  .middleheadans {
+    font-size: 15px;
+  }
+  .middlelayer {
+    margin-bottom: 2rem;
+  }
+
+  .withdraw {
+    margin-bottom: 1rem;
+  }
+
+  .referralcode {
+    margin-left: 0rem;
+    margin-top: 1.5rem;
+  }
+  .listboxx {
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+  }
+
+  .boxxess {
+    width: 100%;
+  }
+
+  .fontimage {
+    margin-right: 0.6rem;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(217, 217, 217, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .inviteee {
+    font-weight: 500;
+  }
+
+  .descript {
+    font-weight: 300;
+    width: 17rem;
+    font-size: 13px;
+  }
 }

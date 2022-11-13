@@ -50,7 +50,7 @@ const Homepage = () => {
         </div>
         <div className="working">
           <p className="worktitle">How does it work?</p>
-          <div className="row">
+          <div className="row boxxess">
             <div className="col-md-5">
               <div className="listboxx">
                 <div className="fontimage">

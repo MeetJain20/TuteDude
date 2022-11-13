@@ -1,8 +1,20 @@
+.coursesname::-webkit-scrollbar {
+  width: 5px;
+}
+
+.coursesname::-webkit-scrollbar-track {
+  background-color: none;
+}
+
+.coursesname::-webkit-scrollbar-thumb {
+  background-color: #eeaeae;
+  border-radius: 2.5px;
+}
+
 .referearn {
-  padding: 2rem;
-  margin-left: 3rem;
   display: flex;
   flex-direction: column;
+  padding: 2rem;
 }
 .refertitle {
   font-size: 14px;
@@ -24,6 +36,7 @@
 .referralcolu {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .referraltitle {
@@ -71,7 +84,169 @@
   font-weight: 600;
 }
 
+.referredfriends {
+  display: flex;
+  justify-content: space-around;
+}
+
 .numenrolled {
   font-weight: 200;
   color: #626262;
+}
+
+.detailsfriends {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  color: white;
+  border-radius: 20px;
+  width: 390px;
+  margin: 0.25rem;
+  padding: 22px;
+}
+
+.boxheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coursesenrol {
+  font-size: 14px;
+}
+
+.coursesname {
+  height: 4.5rem;
+  width: 100%;
+  overflow-y: scroll;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.topicsname {
+  font-size: 14px;
+  display: flex;
+  padding: 1px 2px;
+  justify-content: center;
+  width: 6rem;
+  border: 1px solid white;
+  margin: 3px;
+  border-radius: 20px;
+}
+
+.amourefer {
+  font-size: 14px;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.amountreferral {
+  font-size: 24px;
+  margin-left: 0.75rem;
+}
+
+.conditerms {
+  margin-top: 3rem;
+  color: #800080;
+}
+/* 
+@media (min-width: 375px) {
+  .topicsname {
+    font-size: 12px;
+    padding: 1px 1px;
+    width: 5rem;
+    margin: 2px;
+  }
+
+  .referral {
+    margin-bottom: 3rem;
+  }
+
+  .referraltitle {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .codereferrer {
+    width: 7rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #c3c3c359;
+  }
+
+  .letterss {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    color: black;
+  }
+
+  .wallettitle {
+    color: #800080;
+  }
+
+  .walletbal {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 23px;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+  }
+} */
+
+@media (max-width: 500px) {
+  .refertitle {
+    font-size: 13px;
+  }
+
+  .topicsname {
+    font-size: 10px;
+    padding: 2px 2px;
+    width: 4rem;
+    margin: 2px;
+  }
+
+  .referral {
+    margin-bottom: 3rem;
+  }
+
+  .referraltitle {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .codereferrer {
+    width: 6rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #c3c3c359;
+  }
+
+  .letterss {
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+    color: black;
+  }
+
+  .wallettitle {
+    font-size: 13px;
+  }
+
+  .walletbal {
+    display: flex;
+    flex-direction: column;
+    padding: 17px 22px;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+  }
+
+  .personname {
+    font-size: 14px;
+  }
+  .persondate {
+    font-size: 14px;
+  }
+  .amourefer {
+    font-size: 13px;
+    margin-top: 0.25rem;
+  }
 }

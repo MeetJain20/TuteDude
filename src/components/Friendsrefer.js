@@ -1,9 +1,81 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import "./Friendsrefer.css";
 
 const Friendsrefer = () => {
+  const courses = [
+    {
+      name: "Dhiraj Saxsena",
+      date: "14 Sep, 2022",
+      total: 6,
+      topics: ["UI/UX", "Photoshop", "Illustrator", "Python", "MERN", "Java"],
+      amount: 185,
+    },
+    {
+      name: "Subhash Mishra",
+      date: "15 Sep, 2022",
+      total: 23,
+      topics: [
+        "UI/UX",
+        "Photoshop",
+        "Illustrator",
+        "Python",
+        "MERN",
+        "Java",
+        "C++",
+        "React",
+        "MongoDB",
+        "C",
+        "UI/UX",
+        "Photoshop",
+        "Illustrator",
+        "Python",
+        "MERN",
+        "Java",
+        "C++",
+        "React",
+        "MongoDB",
+        "C",
+        "Example",
+        "Example",
+        "Example",
+      ],
+      amount: 485,
+    },
+    {
+      name: "Prafull Kumar",
+      date: "15 Sep, 2022",
+      total: 23,
+      topics: [
+        "UI/UX",
+        "Photoshop",
+        "Illustrator",
+        "Python",
+        "MERN",
+        "Java",
+        "C++",
+        "React",
+        "MongoDB",
+        "C",
+        "UI/UX",
+        "Photoshop",
+        "Illustrator",
+        "Python",
+        "MERN",
+        "Java",
+        "C++",
+        "React",
+        "MongoDB",
+        "C",
+        "Example",
+        "Example",
+        "Example",
+      ],
+      amount: 185,
+    },
+  ];
+  const [friends, setFriends] = useState(courses.length);
   return (
     <div className="container p-4">
       <div className="referearn">
@@ -36,9 +108,33 @@ const Friendsrefer = () => {
           </div>
         </div>
         <p className="boldfriends">
-          Friends who enrolled<span className="numenrolled">(3)</span>
+          Friends who enrolled<span className="numenrolled">({friends})</span>
         </p>
-        <div className="referredfriends"></div>
+        <div className="referredfriends row">
+          {courses.map((element) => {
+            return (
+              <div className="col-md-4 detailsfriends">
+                <div className="boxheader mb-2">
+                  <div className="personname">{element.name}</div>
+                  <div className="persondate">{element.date}</div>
+                </div>
+                <div className="coursesenrol">
+                  Courses Enrolled({element.total})
+                </div>
+                <div className="coursesname row">
+                  {element.topics.map((e) => {
+                    return <div className="topicsname col-md-4">{e}</div>;
+                  })}
+                </div>
+                <div className="amourefer">
+                  Referral amount
+                  <span className="amountreferral"> ₹{element.amount}</span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <p className="conditerms">Term & Conditions</p>
       </div>
     </div>
   );
