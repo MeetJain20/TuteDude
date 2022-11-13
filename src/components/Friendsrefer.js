@@ -134,7 +134,7 @@ const Friendsrefer = () => {
             );
           })}
         </div>
-        <p className="conditerms">Term & Conditions</p>
+        <p className="conditerms">Terms & Conditions</p>
       </div>
     </div>
   );
