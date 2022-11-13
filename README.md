@@ -15,3 +15,8 @@ To install all the required dependencies.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+Then inorder to navigate to second page
+1. click on Friends who enrolled.
+
+And to come back
+2. click on refer & earn
